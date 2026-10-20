@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="description" content="Mirr-X Day de LXA-INNTECH: espejo inteligente con clima, agenda, recordatorios, sugerencias de outfit, desayuno e inteligencia artificial." />
+  <meta name="keywords" content="espejo inteligente, Mirr-X Day, LXA-INNTECH, smart mirror, espejo con IA, espejo con clima, espejo con agenda, asistente inteligente" />
+  <meta name="author" content="LXA-INNTECH" />
+  <title>Mirr-X Day | Tu rutina, más inteligente</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="inicio">
+    <div class="nav-shell">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img src="img/Logotipo.png" alt="Logotipo de LXA-INNTECH" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#producto">Producto</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#app">Funcion de la App</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <button class="cart-button" id="cartButton" aria-label="Abrir carrito">
+        <span>Carrito</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-dark" id="producto">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">LXA-INNTECH presenta</p>
+          <h1>Mirr-X Day</h1>
+          <p class="hero-slogan">Reflect the Present, Anticipate the Future.</p>
+          <p class="hero-description">
+            Un espejo inteligente que convierte tu rutina diaria en una experiencia más organizada, útil y personalizada.
+            Consulta clima, agenda, recordatorios, outfit, desayuno y asistencia con IA mientras te preparas para salir.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-light" href="#modelos">Comprar Mirr-X Day</a>
+            <a class="btn btn-ghost" href="#app">Descubre cómo funciona</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>90%</strong><span>valoró la personalización</span></div>
+            <div><strong>80%</strong><span>mostró interés en IA</span></div>
+            <div><strong>70%</strong><span>consideraría comprarlo</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-tilt>
+          <div class="product-orbit orbit-one"></div>
+          <div class="product-orbit orbit-two"></div>
+          <img src="img/Inicio.webp" alt="Mirr-X Day, espejo inteligente de LXA-INNTECH" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light intro-section">
+      <div class="container center-copy reveal">
+        <p class="eyebrow dark">Pensado para tu mañana</p>
+        <h2>Todo lo importante, frente a ti.</h2>
+        <p class="lead">
+          Mirr-X Day reúne en un solo lugar la información que normalmente revisas en distintas aplicaciones,
+          para que puedas organizarte sin interrumpir tu rutina.
+        </p>
+      </div>
+      <div class="container feature-grid">
+        <article class="feature-card reveal">
+          <span class="feature-number">01</span>
+          <h3>Organiza</h3>
+          <p>Agenda, recordatorios y actividades del día visibles mientras te arreglas.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-number">02</span>
+          <h3>Prepárate</h3>
+          <p>Consulta hora, fecha y clima para saber qué te espera antes de salir.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-number">03</span>
+          <h3>Personaliza</h3>
+          <p>Ajusta tu rutina, preferencias y módulos desde la aplicación web de Mirr-X Day.</p>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-number">04</span>
+          <h3>Pregunta</h3>
+          <p>Usa el asistente con IA para recibir respuestas y recomendaciones útiles durante tu mañana.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-neutral models-section" id="modelos">
+      <div class="container section-heading reveal">
+        <div>
+          <p class="eyebrow dark">Elige tu versión</p>
+          <h2>Tres formas de vivir Mirr-X Day.</h2>
+        </div>
+        <p>Las tres versiones conservan la esencia del producto y cambian principalmente en tamaño, potencia y experiencia multimedia.</p>
+      </div>
+
+      <div class="container model-grid">
+        <article class="model-card reveal">
+          <div class="model-badge">Lite</div>
+          <div class="model-image model-lite">
+            <img src="img/Lite.png" alt="Mirr-X Day Lite" />
+          </div>
+          <div class="model-content">
+            <p class="model-kicker">Para comenzar</p>
+            <h3>Mirr-X Day Lite</h3>
+            <p class="price">$8,999 <span>MXN</span></p>
+            <ul>
+              <li>Pantalla Full HD de 24 pulgadas</li>
+              <li>Hora, clima, agenda y recordatorios</li>
+              <li>Asistente IA y configuración web</li>
+              <li>Iluminación LED perimetral</li>
+              <li>Wi-Fi y Bluetooth</li>
+            </ul>
+            <button class="btn btn-dark add-cart" data-product="lite">Agregar al carrito</button>
+          </div>
+        </article>
+
+        <article class="model-card featured reveal">
+          <div class="popular-label">Recomendado</div>
+          <div class="model-badge">Plus</div>
+          <div class="model-image model-plus">
+            <img src="img/Plus.png" alt="Mirr-X Day Plus" />
+          </div>
+          <div class="model-content">
+            <p class="model-kicker">Más espacio, más experiencia</p>
+            <h3>Mirr-X Day Plus</h3>
+            <p class="price">$13,499 <span>MXN</span></p>
+            <ul>
+              <li>Pantalla Full HD de 27 pulgadas</li>
+              <li>Interfaz ampliada con más módulos visibles</li>
+              <li>IA, outfit y desayuno personalizados</li>
+              <li>Audio y micrófono mejorados</li>
+              <li>Marco y acabado premium</li>
+            </ul>
+            <button class="btn btn-dark add-cart" data-product="plus">Agregar al carrito</button>
+          </div>
+        </article>
+
+        <article class="model-card reveal">
+          <div class="model-badge">Pro Max</div>
+          <div class="model-image model-pro">
+            <img src="img/Promax.png" alt="Mirr-X Day Pro Max" />
+          </div>
+          <div class="model-content">
+            <p class="model-kicker">La experiencia completa</p>
+            <h3>Mirr-X Day Pro Max</h3>
+            <p class="price">$19,999 <span>MXN</span></p>
+            <ul>
+              <li>Pantalla 4K de 43 pulgadas</li>
+              <li>Mayor área de visualización y rendimiento</li>
+              <li>Audio integrado de mayor potencia</li>
+              <li>Asistente IA con interacción por voz</li>
+              <li>Acabado premium para espacios amplios</li>
+            </ul>
+            <button class="btn btn-dark add-cart" data-product="pro">Agregar al carrito</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="app-section section-dark" id="app">
+      <div class="container app-grid">
+        <div class="app-image reveal">
+          <img src="img/app-demo.webp" alt="Vista preliminar de la interfaz de Mirr-X Day" />
+        </div>
+        <div class="app-copy reveal">
+          <p class="eyebrow">Aplicación web Mirr-X Day</p>
+          <h2>Tu espejo, configurado a tu manera.</h2>
+          <p>
+            La aplicación web será el espacio desde el que cada usuario podrá organizar lo que aparece en el espejo.
+            Podras personalizar y visualizar:
+          </p>
+
+          <div class="demo-tabs" role="tablist" aria-label="Demostración de la aplicación">
+            <button class="demo-tab active" data-demo="rutina">Rutina</button>
+            <button class="demo-tab" data-demo="clima">Clima</button>
+            <button class="demo-tab" data-demo="outfit">Outfit</button>
+            <button class="demo-tab" data-demo="ia">IA</button>
+          </div>
+
+          <div class="demo-panel" id="demoPanel">
+            <span class="demo-label">Rutina diaria</span>
+            <h3 id="demoTitle">Organiza tu día antes de salir.</h3>
+            <p id="demoText">Agrega clases, reuniones, gimnasio, entregas y recordatorios para verlos directamente en el espejo.</p>
+          </div>
+
+          <a class="btn btn-light" href="#contacto">Conoce la aplicación</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow dark">LXA-INNTECH</p>
+          <h2>Tecnología útil para momentos cotidianos.</h2>
+          <p>
+            Somos una propuesta enfocada en desarrollar soluciones inteligentes que se integren de manera natural a la vida diaria.
+            Mirr-X Day nace de una idea sencilla: aprovechar un momento que ya forma parte de la rutina y convertirlo en una oportunidad para organizar mejor el día.
+          </p>
+          <div class="mission-box">
+            <strong>Misión</strong>
+            <p>Desarrollar soluciones tecnológicas que ayuden a las personas a organizar su rutina de forma práctica, inteligente y personalizada.</p>
+          </div>
+        </div>
+        <div class="about-image reveal">
+          <img src="img/Mirr.png" alt="Vistas del concepto Mirr-X Day" />
+        </div>
+      </div>
+    </section>
+
+    <section class="value-section section-neutral">
+      <div class="container center-copy reveal">
+        <p class="eyebrow dark">¿Por qué Mirr-X Day?</p>
+        <h2>No es solo un espejo con pantalla.</h2>
+        <p class="lead">Su valor está en unir organización, personalización e inteligencia en un objeto que ya utilizas todos los días.</p>
+      </div>
+      <div class="container value-grid">
+        <div class="value-item reveal"><strong>01</strong><h3>Todo en un solo lugar</h3><p>Reduce la necesidad de abrir varias aplicaciones durante la mañana.</p></div>
+        <div class="value-item reveal"><strong>02</strong><h3>Se adapta a ti</h3><p>La aplicación web permite decidir qué información quieres ver y cuándo.</p></div>
+        <div class="value-item reveal"><strong>03</strong><h3>Información útil</h3><p>Clima, pendientes, outfit, desayuno e IA se integran con un propósito claro.</p></div>
+      </div>
+    </section>
+
+    <section class="faq-section section-light" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-heading reveal">
+          <p class="eyebrow dark">Preguntas frecuentes</p>
+          <h2>Lo que un cliente probablemente preguntaría.</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details>
+            <summary>¿Mirr-X Day necesita internet para funcionar?</summary>
+            <p>Las funciones básicas pueden mostrarse desde el sistema, pero clima, sincronización, actualizaciones y algunas respuestas de IA requieren conexión a internet.</p>
+          </details>
+          <details>
+            <summary>¿Puedo personalizar lo que aparece en el espejo?</summary>
+            <p>Sí. La propuesta incluye una aplicación web para configurar horarios, recordatorios, preferencias, módulos y elementos visibles.</p>
+          </details>
+          <details>
+            <summary>¿El espejo guarda información personal?</summary>
+            <p>Tú decides qué compartir y qué funciones activar. Mirr-X Day está diseñado para ofrecer una experiencia personalizada sin perder de vista la seguridad y privacidad del usuario.</p>
+          </details>
+          <details>
+            <summary>¿Qué pasa si se va el internet?</summary>
+            <p>El espejo podría seguir funcionando como espejo y mantener información local básica. Las funciones que dependan de servicios en línea quedarían temporalmente limitadas.</p>
+          </details>
+          <details>
+            <summary>¿La inteligencia artificial escucha todo el tiempo?</summary>
+            <p>La intención es que la interacción se active únicamente cuando el usuario la solicite. No se plantea una escucha permanente.</p>
+          </details>
+          <details>
+            <summary>¿La instalación está incluida?</summary>
+            <p>Mirr-X Day está pensado para instalarse de forma segura mediante un sistema de montaje diseñado para el espejo. La instalación puede adaptarse al espacio del usuario para asegurar una colocación firme, funcional y estética.</p>
+          </details>
+          <details>
+            <summary>¿Cuál es la diferencia entre Lite, Plus y Pro Max?</summary>
+            <p>Elige la experiencia que mejor se adapte a ti. Las tres versiones mantienen las funciones principales de Mirr-X Day, mientras que Plus y Pro Max ofrecen una pantalla más amplia, mayor rendimiento, mejor experiencia de audio y acabados más avanzados.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section-dark" id="contacto">
+      <div class="container final-cta-grid">
+        <div class="reveal">
+          <p class="eyebrow">Da el siguiente paso</p>
+          <h2>Organiza tu día.<br />Refleja tu mejor versión.</h2>
+          <p>Explora los modelos, agrega tu favorito al carrito y genera un resumen de pedido.</p>
+          <a class="btn btn-light" href="#modelos">Elegir mi Mirr-X Day</a>
+        </div>
+
+        <form class="contact-card reveal" id="contactForm">
+          <h3>Solicita información</h3>
+          <p class="form-note">Cuéntanos qué modelo te interesa y qué te gustaría saber. Prepararemos tu consulta para que puedas contactar directamente con LXA-INNTECH.</p>
+          <label>Nombre
+            <input type="text" name="name" placeholder="Tu nombre" required />
+          </label>
+          <label>Correo
+            <input type="email" name="email" placeholder="correo@ejemplo.com" required />
+          </label>
+          <label>¿Qué versión te interesa?
+            <select name="model" required>
+              <option value="">Selecciona una opción</option>
+              <option>Mirr-X Day Lite</option>
+              <option>Mirr-X Day Plus</option>
+              <option>Mirr-X Day Pro Max</option>
+            </select>
+          </label>
+          <label>Mensaje
+            <textarea name="message" rows="4" placeholder="Cuéntanos qué te gustaría saber"></textarea>
+          </label>
+          <button class="btn btn-light" type="submit">Preparar mensaje</button>
+          <small id="formStatus" class="form-status" aria-live="polite"></small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="img/Logotipo.png" alt="LXA-INNTECH" />
+        <p>Mirr-X Day — Reflect the Present, Anticipate the Future.</p>
+      </div>
+
+      <div>
+        <strong>Explora</strong>
+        <a href="#producto">Producto</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#app">Funcion de la App</a>
+        <a href="#faq">Preguntas frecuentes</a>
+      </div>
+
+      <div>
+        <strong>Redes sociales</strong>
+        <div class="social-links">
+          <a href="#" data-social="instagram" aria-label="Instagram"><span aria-hidden="true">◎</span></a>
+          <a href="#" data-social="tiktok" aria-label="TikTok"><span aria-hidden="true">♪</span></a>
+          <a href="#" data-social="youtube" aria-label="YouTube"><span aria-hidden="true">▶</span></a>
+          <a href="#" data-social="facebook" aria-label="Facebook"><span aria-hidden="true">f</span></a>
+        </div>
+      </div>
+
+      <div>
+        <strong>Contacto</strong>
+        <a id="emailLink" href="#">Correo de contacto</a>
+        <p>WhatsApp    773 370 5824</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 LXA-INNTECH. Proyecto escolar.</span>
+      <span>Axel Ernesto Tapia Perez 4EVND - G1.</span>
+    </div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Carrito de compra">
+    <div class="cart-header">
+      <div>
+        <span class="eyebrow dark">Tu selección</span>
+        <h2>Carrito</h2>
+      </div>
+      <button class="close-cart" id="closeCart" aria-label="Cerrar carrito">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">Todavía no agregas ningún modelo.</div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Total estimado</span><strong id="cartTotal">$0 MXN</strong></div>
+      <button class="btn btn-dark" id="checkoutButton">Generar resumen de pedido</button>
+      <small>El sitio no cobra ni almacena información de pago.</small>
+    </div>
+  </aside>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <div class="modal" id="orderModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">×</button>
+      <p class="eyebrow dark">Demostración de compra</p>
+      <h2 id="orderModalTitle">Resumen de tu pedido</h2>
+      <pre id="orderSummary"></pre>
+      <button class="btn btn-dark" id="copyOrder">Copiar resumen</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
